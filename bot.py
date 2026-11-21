@@ -26,7 +26,7 @@ Run:      python bot.py
 # ══════════════════════════════════════════════════════════════
 import os
 
-BOT_TOKEN = os.getenv("8535271767:AAF0ybmOG8VBBpgAOY_b_cK6mAU7mVWEcoE") or "8535271767:AAF0ybmOG8VBBpgAOY_b_cK6mAU7mVWEcoE"                      # token from @BotFather
+BOT_TOKEN = os.getenv("9262195599:AAFUC5etIl5DScSqBEtXqZKyIa4v6W5ROYs") or "9262195599:AAFUC5etIl5DScSqBEtXqZKyIa4v6W5ROYs"                      # token from @BotFather
 OWNER_API_KEY = os.getenv("ANTHROPIC_API_KEY") or "YOUR_ANTHROPIC_API_KEY"  # from console.anthropic.com
 ADMIN_IDS = {int(x) for x in (os.getenv("1686274364") or "1686274364").split(",") if x.strip()}  # your Telegram ID(s)
 MODEL = os.getenv("CLAUDE_MODEL") or "claude-sonnet-5-5"                    # Claude model to use
