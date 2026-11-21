@@ -26,9 +26,9 @@ Run:      python bot.py
 # ══════════════════════════════════════════════════════════════
 import os
 
-BOT_TOKEN = os.getenv("BOT_TOKEN") or "YOUR_BOT_TOKEN"                      # token from @BotFather
+BOT_TOKEN = os.getenv("8535271767:AAF0ybmOG8VBBpgAOY_b_cK6mAU7mVWEcoE") or "8535271767:AAF0ybmOG8VBBpgAOY_b_cK6mAU7mVWEcoE"                      # token from @BotFather
 OWNER_API_KEY = os.getenv("ANTHROPIC_API_KEY") or "YOUR_ANTHROPIC_API_KEY"  # from console.anthropic.com
-ADMIN_IDS = {int(x) for x in (os.getenv("ADMIN_IDS") or "123456789").split(",") if x.strip()}  # your Telegram ID(s)
+ADMIN_IDS = {int(x) for x in (os.getenv("1686274364") or "1686274364").split(",") if x.strip()}  # your Telegram ID(s)
 MODEL = os.getenv("CLAUDE_MODEL") or "claude-sonnet-5-5"                    # Claude model to use
 FREE_DAILY_LIMIT = int(os.getenv("FREE_DAILY_LIMIT") or 10)                 # daily message limit for free users
 PREMIUM_CONTACT = os.getenv("PREMIUM_CONTACT") or "@your_username"          # who to contact to buy premium
